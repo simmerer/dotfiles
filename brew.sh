@@ -88,12 +88,10 @@ brew install xz
 brew install ack
 brew install autoconf
 brew install autojump
-brew install xz
 brew install automake
 brew install colordiff
 brew install coreutils
 brew install dark-mode
-brew install libpng
 brew install freetype
 brew install git
 brew install git-flow
@@ -106,8 +104,9 @@ brew install imagemagick --with-webp
 brew install jp2a
 brew install jpeg
 brew install jq
-brew install libcaca, args: ['with-imlib2']
+# brew install libcaca, args: ['with-imlib2']
 brew install libgit2
+brew install libpng
 brew install libtool
 brew install libtiff
 brew install imagemagick
@@ -143,44 +142,40 @@ brew install unrar
 brew install vbindiff
 brew install webkit2png
 brew install wget
+brew install xz
 brew install yarn
 brew install youtube-dl
 brew install zopfli
 
 # apps
-brew cask adobe-creative-cloud
-# brew cask amazon-drive
-# brew cask amazon-music
-# brew cask android-studio
-brew cask anvil
-brew cask applepi-baker
-brew cask atom
-# brew cask cocoapods-app
-brew cask docker-toolbox
-brew cask dropbox
-brew cask firefox
-brew cask github-desktop
-brew cask google-chrome
-brew cask grandperspective
-brew cask iterm2
-brew cask java
-brew cask joinme
-brew cask livereload
-brew cask ngrok
-brew cask opera
-# brew cask parallels-desktop
-brew cask rescuetime
-brew cask sidestep
-brew cask skitch
-brew cask skype
-brew cask sonos
-brew cask spotify
-brew cask steam
-brew cask sublime-text
-brew cask transmit
-brew cask vagrant
-brew cask vagrant-manager
-brew cask visual-studio-code
+brew cask install adobe-creative-cloud
+brew cask install anvil
+brew cask install applepi-baker
+brew cask install atom
+brew cask install docker-toolbox
+brew cask install dropbox
+brew cask install firefox
+brew cask install github-desktop
+brew cask install google-chrome
+brew cask install grandperspective
+brew cask install iterm2
+brew cask install java
+brew cask install joinme
+brew cask install livereload
+brew cask install ngrok
+brew cask install opera
+brew cask install rescuetime
+brew cask install sidestep
+brew cask install skitch
+brew cask install skype
+brew cask install sonos
+brew cask install spotify
+brew cask install steam
+brew cask install sublime-text
+brew cask install transmit
+brew cask install vagrant
+brew cask install vagrant-manager
+brew cask install visual-studio-code
 
 # Remove outdated versions from the cellar.
 brew cleanup
