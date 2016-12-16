@@ -35,6 +35,10 @@ brew tap caskroom/cask
 brew tap homebrew/bundle
 brew tap homebrew/core
 brew tap homebrew/services
+brew tap homebrew/dupes
+brew tap homebrew/php
+brew tap homebrew/apache
+
 
 # Install `wget` with IRI support.
 brew install wget --with-iri
@@ -50,7 +54,9 @@ brew install vim --override-system-vi
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
-brew install homebrew/php/php70 --with-gmp --with-httpd24
+
+# brew install httpd24 --with-privileged-ports --with-http2ss
+# brew install homebrew/php/php70 --with-gmp --with-httpd24
 
 # Install font tools.
 brew tap bramstein/webfonttools
