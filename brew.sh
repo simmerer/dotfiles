@@ -70,67 +70,36 @@ brew install binutils
 # brew install xpdf
 # brew install xz
 
+# Install other useful binaries.
 brew install ack
-brew install autoconf
-brew install autojump
-brew install automake
-brew install colordiff
-brew install coreutils
-brew install dark-mode
-brew install freetype
+#brew install exiv2
 brew install git
 brew install git-flow
 brew install git-lfs
-brew install go
-brew install grc
-brew install hub
-brew install icoutils
-brew install imagemagick --with-webp
-brew install jp2a
-brew install jpeg
-brew install jq
-# brew install libcaca, args: ['with-imlib2']
-brew install libgit2
+# brew install gs
+# brew install imagemagick --with-webp
 brew install libpng
-brew install libtool
-brew install libtiff
-brew install imagemagick
-brew install libevent
 brew install libmemcached
 brew install libxml2
-brew install mas
 brew install memcached
-brew install mysql
 brew install n
 brew install node
-brew install openssl
-brew install ossp-uuid
-brew install p7zip
+# brew install lua
+brew install lynx
+# brew install p7zip
 brew install pigz
-brew install postgresql
-brew install pow
-brew install puma/puma/puma-dev
+brew install postgres
+brew install postgis
 brew install pv
-brew install ruby-build
-brew install rbenv
 brew install readline
-brew install rename
-brew install roundup
-brew install spaceman-diff
-brew install spark
-brew install speedtest_cli
+# brew install rename
+brew install rlwrap
 brew install ssh-copy-id
-brew install testssl
-brew install tmux
 brew install tree
-brew install unrar
 brew install vbindiff
-brew install webkit2png
-brew install wget
-brew install xz
-brew install yarn
-brew install youtube-dl
 brew install zopfli
+brew install zsh
+
 
 # apps
 brew cask install adobe-creative-cloud
