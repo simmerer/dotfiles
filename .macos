@@ -611,26 +611,8 @@ tell application "Terminal"
 	local initialOpenedWindows
 	local windowID
 
-	set themeList to {
-		"Pro Aqua",
-		"Pro Blue",
-		"Pro Brown",
-		"Pro Green Dark",
-		"Pro Green",
-		"Pro Grey Dark",
-		"Pro Grey",
-		"Pro Orange",
-		"Pro Orchid",
-		"Pro Purple Dark",
-		"Pro Purple",
-		"Pro Red",
-		"Pro Teal",
-		"Pro White",
-		"Pro Yellow",
-		"Pro"
-	}
+	set themeList to {"Pro Aqua", "Pro Blue", "Pro Brown", "Pro Green Dark", "Pro Green", "Pro Grey Dark", "Pro Grey", "Pro Orange", "Pro Orchid", "Pro Purple Dark", "Pro Purple", "Pro Red", "Pro Teal", "Pro White", "Pro Yellow", "Pro"}
 
-	repeat with themeName in themeList
 		(* Open the custom theme so that it gets added to the list
 			of available terminal themes (note: this will open two
 			additional terminal windows). *)
