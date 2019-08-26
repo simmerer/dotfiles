@@ -102,34 +102,47 @@ brew install zsh
 
 
 # apps
+brew tap caskroom/cask
+
+brew cask install 1password
+brew cask install 1password-cli
+brew cask install abstract
 brew cask install adobe-creative-cloud
-brew cask install anvil
-brew cask install applepi-baker
-brew cask install atom
-brew cask install docker-toolbox
+brew cask install alfred
 brew cask install dropbox
 brew cask install firefox
-brew cask install github-desktop
 brew cask install google-chrome
-brew cask install grandperspective
-brew cask install iterm2
+brew cask install imageoptim
+brew cask install istat-menus
 brew cask install java
-brew cask install joinme
-brew cask install livereload
+brew cask install homebrew/cask-versions/adoptopenjdk8
 brew cask install ngrok
-brew cask install opera
-brew cask install rescuetime
-brew cask install sidestep
-brew cask install skitch
-brew cask install skype
-brew cask install sonos
+brew cask install paparazzi
+brew cask install postico
+brew cask install sequel-pro
+brew cask install sketch
+brew cask install sketch-toolbox
+brew cask install skyfonts
+brew cask install slack
+brew cask install spectacle
 brew cask install spotify
-brew cask install steam
-brew cask install sublime-text
-brew cask install transmit
-brew cask install vagrant
-brew cask install vagrant-manager
+brew cask install sourcetree
+brew cask install the-unarchiver
 brew cask install visual-studio-code
+brew cask install wireshark
+brew cask install wunderlist
+
+
+# fonts
+brew tap caskroom/fonts
+
+brew cask install font-open-sans
+brew cask install font-open-sans-condensed
+brew cask install font-fira-sans
+brew cask install font-inconsolata
+brew cask install font-roboto
+brew cask install font-roboto-mono
+
 
 # Remove outdated versions from the cellar.
 brew cleanup
