@@ -613,10 +613,11 @@ tell application "Terminal"
 
 	set themeList to {"Pro Aqua", "Pro Blue", "Pro Brown", "Pro Green Dark", "Pro Green", "Pro Grey Dark", "Pro Grey", "Pro Orange", "Pro Orchid", "Pro Purple Dark", "Pro Purple", "Pro Red", "Pro Teal", "Pro White", "Pro Yellow", "Pro"}
 
+	repeat with themeListName in themeList
 		(* Open the custom theme so that it gets added to the list
 			of available terminal themes (note: this will open two
 			additional terminal windows). *)
-		do shell script "open '$HOME/init/" & themeName & ".terminal'"
+		do shell script "open '$HOME/init/" & themeListName & ".terminal'"
 
 		(* Wait a little bit to ensure that the custom theme is added. *)
 		delay 1
