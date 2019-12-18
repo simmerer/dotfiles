@@ -127,6 +127,7 @@ brew cask install homebrew/cask-versions/adoptopenjdk8
 brew cask install ngrok
 brew cask install paparazzi
 brew cask install postico
+brew cask install runjs
 brew cask install sequel-pro
 brew cask install sketch
 brew cask install sketch-toolbox
