@@ -105,6 +105,7 @@ brew install rlwrap
 brew install ssh-copy-id
 brew install tree
 brew install vbindiff
+brew install yarn
 brew install zopfli
 brew install zsh
 
