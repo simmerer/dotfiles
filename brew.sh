@@ -123,7 +123,7 @@ brew cask install firefox
 brew cask install google-chrome
 brew cask install imageoptim
 brew cask install istat-menus
-brew cask install java
+# brew cask install java
 brew cask install homebrew/cask-versions/adoptopenjdk8
 brew cask install ngrok
 brew cask install paparazzi
@@ -141,17 +141,6 @@ brew cask install the-unarchiver
 brew cask install visual-studio-code
 brew cask install wireshark
 brew cask install wunderlist
-
-
-# fonts
-brew tap caskroom/fonts
-
-brew cask install font-open-sans
-brew cask install font-open-sans-condensed
-brew cask install font-fira-sans
-brew cask install font-inconsolata
-brew cask install font-roboto
-brew cask install font-roboto-mono
 
 
 # Remove outdated versions from the cellar.
