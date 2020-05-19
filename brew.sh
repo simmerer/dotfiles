@@ -114,8 +114,8 @@ brew install zsh
 # apps
 brew tap caskroom/cask
 
-brew cask install 1password
-brew cask install 1password-cli
+# brew cask install 1password
+# brew cask install 1password-cli
 brew cask install abstract
 brew cask install adobe-creative-cloud
 brew cask install alfred
@@ -144,8 +144,6 @@ brew cask install vagrant
 brew cask install vagrant-manager
 brew cask install virtualbox
 brew cask install wireshark
-brew cask install wunderlist
-
 
 # Remove outdated versions from the cellar.
 brew cleanup
