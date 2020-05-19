@@ -43,7 +43,6 @@ brew install gnupg
 brew install grep
 brew install openssh
 # brew install screen
-# brew install php
 # brew install gmp
 
 # Install font tools.
@@ -81,6 +80,7 @@ brew install binutils
 # Install other useful binaries.
 brew install ack
 #brew install exiv2
+brew install composer
 brew install git
 brew install git-flow
 brew install git-lfs
@@ -96,6 +96,7 @@ brew install node
 brew install lynx
 # brew install p7zip
 brew install pigz
+brew install php
 brew install postgres
 brew install postgis
 brew install pv
@@ -139,6 +140,9 @@ brew cask install spotify
 brew cask install sourcetree
 brew cask install the-unarchiver
 brew cask install visual-studio-code
+brew cask install vagrant
+brew cask install vagrant-manager
+brew cask install virtualbox
 brew cask install wireshark
 brew cask install wunderlist
 
