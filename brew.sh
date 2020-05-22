@@ -79,6 +79,7 @@ brew install binutils
 
 # Install other useful binaries.
 brew install ack
+brew install ansible
 #brew install exiv2
 brew install composer
 brew install git
