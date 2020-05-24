@@ -144,6 +144,7 @@ brew cask install wireshark
 
 # Roots stack
 brew install ansible
+brew install go
 brew install roots/tap/trellis-cli
 brew cask install vagrant
 brew cask install vagrant-manager
