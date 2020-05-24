@@ -79,7 +79,6 @@ brew install binutils
 
 # Install other useful binaries.
 brew install ack
-brew install ansible
 #brew install exiv2
 brew install composer
 brew install git
@@ -90,6 +89,7 @@ brew install git-lfs
 brew install libpng
 brew install libmemcached
 brew install libxml2
+brew install mariadb
 brew install memcached
 brew install n
 brew install node
@@ -110,7 +110,6 @@ brew install vbindiff
 brew install yarn
 brew install zopfli
 brew install zsh
-
 
 # apps
 brew tap caskroom/cask
@@ -141,10 +140,14 @@ brew cask install spotify
 brew cask install sourcetree
 brew cask install the-unarchiver
 brew cask install visual-studio-code
+brew cask install wireshark
+
+# Roots stack
+brew install ansible
+brew install roots/tap/trellis-cli
 brew cask install vagrant
 brew cask install vagrant-manager
 brew cask install virtualbox
-brew cask install wireshark
 
 # Remove outdated versions from the cellar.
 brew cleanup
