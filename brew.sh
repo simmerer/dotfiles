@@ -80,7 +80,6 @@ brew install binutils
 # Install other useful binaries.
 brew install ack
 #brew install exiv2
-brew install composer
 brew install git
 brew install git-flow
 brew install git-lfs
@@ -89,7 +88,6 @@ brew install git-lfs
 brew install libpng
 brew install libmemcached
 brew install libxml2
-brew install mariadb
 brew install memcached
 brew install n
 brew install node
@@ -97,7 +95,6 @@ brew install node
 brew install lynx
 # brew install p7zip
 brew install pigz
-brew install php
 brew install postgres
 brew install postgis
 brew install pv
@@ -142,9 +139,12 @@ brew cask install the-unarchiver
 brew cask install visual-studio-code
 brew cask install wireshark
 
-# Roots stack
+# Roots dev stack
 brew install ansible
+brew install composer
 brew install go
+brew install mariadb
+brew install php
 brew install roots/tap/trellis-cli
 brew cask install vagrant
 brew cask install vagrant-manager
